@@ -126,7 +126,7 @@ La representación gráfica del diagrama se encuentra en: EA1_DiagramaClases_Gru
 Enlace al video: PENDIENTE DE AGREGAR
 
 ## Integrantes
-Willy Anderson Jaramillo Ortiz
+Willy Anderson Jaramillo Ortiz -
 Franciny Alberto Cano Quinchia 
 
 ## Conclusiones
