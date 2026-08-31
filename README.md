@@ -119,9 +119,9 @@ de 3 libros, sus autores y sus préstamos:
 -El principito	Antoine de Saint-Exupéry (Francesa)	22/08/2026 → 29/08/2026
 
 
-El archivo editable del diagrama se encuentra en: EA1_DiagramaClases_Grupo18_.drawio
+El archivo editable del diagrama se encuentra en: EA1_DiagramaClases_Grupo8_.drawio
 
-La representación gráfica del diagrama se encuentra en: EA1_DiagramaClases_Grupo18__pdf_drawio.png
+La representación gráfica del diagrama se encuentra en: EA1_DiagramaClases_Grupo8__pdf_drawio.png
 
 Enlace al video: PENDIENTE DE AGREGAR
 
