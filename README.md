@@ -123,7 +123,8 @@ El archivo editable del diagrama se encuentra en: EA1_DiagramaClases_Grupo8_.dra
 
 La representación gráfica del diagrama se encuentra en: EA1_DiagramaClases_Grupo8__pdf_drawio.png
 
-Enlace al video: PENDIENTE DE AGREGAR
+Enlace al video: https://drive.google.com/file/d/1AjX5IjIySH3tABhOgfxS2uiVMfjImBT6/view?usp=sharing
+
 
 ## Integrantes
 Willy Anderson Jaramillo Ortiz -
