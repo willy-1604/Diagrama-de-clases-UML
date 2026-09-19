@@ -1,0 +1,34 @@
+package biblioteca;
+
+/**
+ * Clase abstracta que representa una persona del sistema.
+ * POO: Abstracción y encapsulamiento.
+ */
+public abstract class Persona {
+    private int id;
+    private String nombre;
+    private String documento;
+
+    public Persona(int id, String nombre, String documento) {
+        this.id = id;
+        this.nombre = nombre;
+        this.documento = documento;
+    }
+
+    public String mostrarInformacion() {
+        return "ID: " + id + ", Nombre: " + nombre + ", Documento: " + documento;
+    }
+
+    public String identificarse() {
+        return "Mi nombre es " + nombre + " y mi documento es " + documento + ".";
+    }
+
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
+
+    public String getDocumento() { return documento; }
+    public void setDocumento(String documento) { this.documento = documento; }
+}
