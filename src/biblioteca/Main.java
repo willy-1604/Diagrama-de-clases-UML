@@ -2,7 +2,7 @@ package biblioteca;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("===== SISTEMA DE BIBLIOTECA =====");
+        System.out.println("===== SISTEMA DE BIBLIOTECA PUBLICA =====");
 
         // Implementación concreta del repositorio.
         RepositorioMemoria repositorio = new RepositorioMemoria();
