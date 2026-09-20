@@ -51,7 +51,7 @@ public class Main {
         biblioteca.agregarLibro(libro2);
         biblioteca.agregarLibro(libro3);
 
-        System.out.println("\n--- REGISTRO DE LIBROS ---");
+        System.out.println("\n--- REGISTRO DE LIBROS BIBLIOTECA ---");
         System.out.println(libro1.mostrarInformacion());
         System.out.println(libro2.mostrarInformacion());
         System.out.println(libro3.mostrarInformacion());
@@ -60,7 +60,7 @@ public class Main {
         System.out.println("\nSobrecarga: " + libro1.mostrarInformacion("corto"));
 
         // Polimorfismo: una referencia Libro apunta a un LibroDigital.
-        System.out.println("\n--- POLIMORFISMO ---");
+        System.out.println("\n---  PILAR POLIMORFISMO ---");
         Libro libroPolimorfico = libro3;
         System.out.println(libroPolimorfico.mostrarInformacion());
 
@@ -92,17 +92,17 @@ public class Main {
         empleado.registrarLibro(biblioteca, libro3);
 
         // Devolución.
-        System.out.println("\n--- DEVOLUCIÓN ---");
+        System.out.println("\n--- SISTEMA DEVOLUCIÓN ---");
         usuarioReal.devolverLibro(prestamo);
         System.out.println(prestamo);
-        System.out.println("Libro disponible: " + libro1.estaDisponible());
+        System.out.println("Libro disponible/s: " + libro1.estaDisponible());
 
         // Libro digital.
         System.out.println("\n--- LIBRO DIGITAL ---");
         libro3.descargar();
 
         // Búsqueda en el repositorio.
-        System.out.println("\n--- BÚSQUEDA ---");
+        System.out.println("\n--- POR BÚSQUEDA ---");
         Libro encontrado = biblioteca.buscarLibro("Cien años de soledad");
         System.out.println(encontrado != null
                 ? "Libro encontrado: " + encontrado.mostrarInformacion()
